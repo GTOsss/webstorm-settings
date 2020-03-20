@@ -1,0 +1,20 @@
+<templateSet group="React-storybook">
+  <template name="istory" value="import React from 'react';&#10;import {storiesOf} from '@storybook/react';&#10;import {action} from '@storybook/addon-actions';&#10;import {withInfo} from '@storybook/addon-info';&#10;&#10;import $var$ from './index';" description="import storybook" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="storywithinfo" value="storiesOf('$var$', module)&#10;  .add('$var$', withInfo()(() =&gt; (&#10;  )));" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="story" value="storiesOf('$var$', module)&#10;  .add('$var$', () =&gt; (&#10;  &#10;  ));&#10;  " description="" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

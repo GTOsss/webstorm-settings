@@ -1,0 +1,26 @@
+<templateSet group="Zen CSS user">
+  <template name="media" value="@media screen and (max-width: $width$px) {&#10;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="width" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="elicon" value="&amp;_$var$ {&#10;&#9;background: url('./img/subaru-media/$var$.svg') center center no-repeat;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="el" value="&amp;__$VAR1$ {&#10;  &#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="elr" value="@{root}__$VAR1$ {&#10;  &#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>

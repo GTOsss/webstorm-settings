@@ -1,0 +1,8 @@
+<templateSet group="Pug-user">
+  <template name="m" value="mixin $var1$(params)&#10;&#9;-&#10;&#9;&#9;var defaultValues = {&#10;&#9;&#9;&#9;theme: '',&#10;&#9;&#9;};&#10;&#9;&#9;var config = Object.assign({}, defaultValues, params);&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+</templateSet>

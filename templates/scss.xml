@@ -1,0 +1,7 @@
+<templateSet group="scss">
+  <template name="md" value="@include media(xs) {&#10;&#10;}&#10;@include media(sm) {&#10;&#10;}&#10;@include media(md) {&#10;&#10;}&#10;@include media(lg) {&#10;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>

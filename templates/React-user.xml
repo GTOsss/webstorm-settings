@@ -1,0 +1,116 @@
+<templateSet group="React-user">
+  <template name="i" value="import  from '$FROM$';" description="Import" toReformat="false" toShortenFQNames="true">
+    <variable name="FROM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+    </context>
+  </template>
+  <template name="ir" value="import React, {Component} from 'react';&#10;import PropTypes from 'prop-types';&#10;&#10;class $NAME$ extends Component {&#10;  static propTypes = {};&#10;  &#10;  static defaultProps = {};&#10;&#10;  render() {&#10;    return (&#10;&#10;    );&#10;  }&#10;}&#10;&#10;export default $NAME$;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+    </context>
+  </template>
+  <template name="rc" value="class $NAME$ extends Component {&#10;  render() {&#10;    return (&#10;&#10;    );&#10;  }&#10;}&#10;&#10;$NAME$.propTypes = {&#10;  &#10;};&#10;&#10;$NAME$.defaultProps = {&#10;  &#10;};&#10;&#10;export default $NAME$;" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+    </context>
+  </template>
+  <template name="ifm" value="import { FormattedMessage } from 'react-intl';" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+    </context>
+  </template>
+  <template name="fm" value="&lt;FormattedMessage id=&quot;$ID$&quot; /&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+    </context>
+  </template>
+  <template name="index" value="import Component from './$NAME$';&#10;&#10;export default Component;&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+    </context>
+  </template>
+  <template name="reactst" value="const $NAME$ = ({ }) =&gt; (&#10;&#10;);&#10;&#10;$NAME$.propTypes = {&#10;  &#10;};&#10;&#10;$NAME$.defaultProps = {&#10;  &#10;};&#10;&#10;export default $NAME$;&#10;&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+    </context>
+  </template>
+  <template name="rst" value="const $NAME$ = ({ }) =&gt; (&#10;&#10;);&#10;&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+    </context>
+  </template>
+  <template name="rclass" value="class $NAME$ extends Component {&#10;  constructor(props, context) {&#10;    super(props, context);&#10;&#10;  }&#10;&#10;  render() {&#10;    return (&#10;&#10;    );&#10;  }&#10;}&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+    </context>
+  </template>
+  <template name="edl" value="// eslint-disable-line" description="eslint-disable-line" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+    </context>
+  </template>
+  <template name="importredux" value="import { connect } from 'react-redux';&#10;import { bindActionCreators } from 'redux';&#10;import * as actions$NAME_ACTIONS$ from '$PATH_ACTIONS$';" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME_ACTIONS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PATH_ACTIONS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+    </context>
+  </template>
+  <template name="redux" value="const mapStateToProps = (state) =&gt; ({&#10;&#10;});&#10;&#10;const mapDispatchToProps = (dispatch) =&gt; ({&#10;  actions: { ...bindActionCreators(actions$ACTIONS_NAME$, dispatch) }&#10;});&#10;&#10;export default connect(mapStateToProps, mapDispatchToProps)($COMPONENT_NAME$)" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="ACTIONS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="COMPONENT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+    </context>
+  </template>
+  <template name="reducer" value="import {&#10;  CONST,&#10;} from './constants';&#10;&#10;const initialState = {&#10;};&#10;&#10;export default (state = initialState, { type, payload }) =&gt; {&#10;  switch (type) {&#10;    case CONST:&#10;    default:&#10;      return state;&#10;  }&#10;}" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+    </context>
+  </template>
+  <template name="rconstr" value="constructor(props, context) {&#10;&#9;super(props, context);&#10;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="asyncaction" value="export const $name$ = () =&gt; async (dispatch) =&gt; {&#10;  try {&#10;    dispatch(toggleLoading($loadingConst$, true));&#10;  } catch (e) {&#10;    &#10;  } finally {&#10;    dispatch(toggleLoading($loadingConst$, false));&#10;  }&#10;};" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="loadingConst" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="dp" value="const {$var$} = this.props;" description="descruct props" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ds" value="const { $var$ } = this.state;" description="descruct state" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cs" value="constructor(props) {&#10;&#9;super(props);&#10;&#9;&#10;&#9;$var$&#10;}" description="constructor" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mstp" value="const mapStateToProps = (state) =&gt; ({&#10;&#9;$VAR$&#10;});" description="mapStateToProps" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
