@@ -1,0 +1,43 @@
+<templateSet group="React-styled">
+  <template name="rc" value="import * as React from 'react';&#10;import styled from 'styled-components';&#10;import device from '@helpers/styled-breakpoints';&#10;&#10;interface IProps {&#10;}&#10;&#10;const $NAME$ = React.memo(({}: IProps) =&gt; {&#10;&#10;  return ();&#10;});&#10;&#10;export default $NAME$;&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="sc" value="const $NAME$ = styled.$ELEMENT$`&#10;&#10;`;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ELEMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="media" value="@media ${device.mobil} {&#10;}&#10;&#10;@media ${device.tablet} {&#10;}&#10;&#10;@media ${device.desktop} {&#10;}&#10;&#10;@media ${device.extra} {&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="si" value="${({ $var1$ }) =&gt; $var1$}$var2$;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="as" value="const $var1$ = {&#10;  $var2$: css`&#10;    transform: translateX(100px);&#10;    opacity: 0;&#10;  `,&#10;  $var3$: css`&#10;    transform: translateY(0);&#10;    opacity: 1;    &#10;  `,&#10;};" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tsi" value="interface I$var$ {&#10;  $var2$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
