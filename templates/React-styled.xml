@@ -17,7 +17,7 @@
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="si" value="${({ $var1$ }) =&gt; $var1$}$var2$;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="si" value="${({ $var1$ }) =&gt; $var1$}$var2$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="var2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
