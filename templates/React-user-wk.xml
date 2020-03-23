@@ -1,0 +1,20 @@
+<templateSet group="React-user-wk">
+  <template name="ir" value="import * as React from 'react';" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cc" value="import * as React from 'react';&#10;import {block, IBlock} from 'bem-cn';&#10;&#10;import './style.scss';&#10;&#10;const b: IBlock = block('block');&#10;&#10;interface IProps {}&#10;&#10;interface IState {}&#10;&#10;class $NAME$ extends React.Component&lt;IProps, IState&gt; {&#10;  render(): React.ReactElement {&#10;    return (&#10;&#10;    );&#10;  }&#10;}&#10;&#10;export default $NAME$;&#10;" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fc" value="import * as React from 'react';&#10;import {block, IBlock} from 'bem-cn';&#10;&#10;import './style.scss';&#10;&#10;const b: IBlock = block('block');&#10;&#10;interface IProps {}&#10;&#10;function $var0$(props: IProps): React.ReactElement {&#10;  const {} = props;&#10;&#10;  return (&#10;    $var1$&#10;  );&#10;}&#10;&#10;export default $var0$;&#10;" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="var0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

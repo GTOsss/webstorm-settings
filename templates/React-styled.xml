@@ -40,4 +40,11 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="m" value="const $var1$ = () =&gt; {&#10;  $var2$&#10;};" description="const name = () =&gt; {}" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
