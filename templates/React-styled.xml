@@ -12,7 +12,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="media" value="@media ${device.mobil} {&#10;}&#10;&#10;@media ${device.tablet} {&#10;}&#10;&#10;@media ${device.desktop} {&#10;}&#10;&#10;@media ${device.extra} {&#10;}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="media" value="@media (min-width: 576px) {&#10;}&#10;&#10;@media (min-width: 768px) {&#10;}&#10;&#10;@media (min-width: 1024px) {&#10;}&#10;&#10;@media (min-width: 1860px) {&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="true" />
     </context>
