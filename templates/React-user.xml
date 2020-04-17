@@ -5,7 +5,7 @@
       <option name="ECMAScript6" value="true" />
     </context>
   </template>
-  <template name="ir" value="import React, {Component} from 'react';&#10;import PropTypes from 'prop-types';&#10;&#10;class $NAME$ extends Component {&#10;  static propTypes = {};&#10;  &#10;  static defaultProps = {};&#10;&#10;  render() {&#10;    return (&#10;&#10;    );&#10;  }&#10;}&#10;&#10;export default $NAME$;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="ir" value="import React, {Component} from 'react';&#10;import PropTypes from 'prop-types';&#10;import cn from 'classnames';&#10;&#10;import style from './style.scss';&#10;&#10;class $NAME$ extends Component {&#10;  static propTypes = {};&#10;  &#10;  static defaultProps = {};&#10;&#10;  render() {&#10;    return (&#10;&#10;    );&#10;  }&#10;}&#10;&#10;export default $NAME$;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ECMAScript6" value="true" />
@@ -17,15 +17,11 @@
       <option name="ECMAScript6" value="true" />
     </context>
   </template>
-  <template name="ifm" value="import { FormattedMessage } from 'react-intl';" description="" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="ECMAScript6" value="true" />
-    </context>
-  </template>
   <template name="fm" value="&lt;FormattedMessage id=&quot;$ID$&quot; /&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
   <template name="index" value="import Component from './$NAME$';&#10;&#10;export default Component;&#10;" description="" toReformat="false" toShortenFQNames="true">
@@ -89,7 +85,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="dp" value="const {$var$} = this.props;" description="descruct props" toReformat="false" toShortenFQNames="true">
+  <template name="dp" value="const {$var$} = props;" description="descruct props" toReformat="false" toShortenFQNames="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -109,6 +105,11 @@
   </template>
   <template name="mstp" value="const mapStateToProps = (state) =&gt; ({&#10;&#9;$VAR$&#10;});" description="mapStateToProps" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ifm" value="import { FormattedMessage } from 'react-intl';" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>

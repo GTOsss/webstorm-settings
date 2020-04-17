@@ -1,5 +1,5 @@
 <templateSet group="React-user-yalab">
-  <template name="rc" value="class $NAME$ extends Component {&#10;  static propTypes = {};&#10;  &#10;  static defaultProps = {};&#10;&#10;  render() {&#10;    return (&#10;&#10;    );&#10;  }&#10;}&#10;&#10;export default $NAME$;" description="With static fields for propTypes and deffaultProps" toReformat="false" toShortenFQNames="true">
+  <template name="rc" value="class $NAME$ extends Component {&#10;  static propTypes = {};&#10;  &#10;  static defaultProps = {};&#10;&#10;  render() {&#10;    return (&#10;&#10;    );&#10;  }&#10;}&#10;&#10;export default $NAME$;" description="With static fields for propTypes and deffaultProps" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -79,6 +79,11 @@
   </template>
   <template name="s" value=".add('$var$', () =&gt; (&#10;&#9;&lt;Icon&#10;&#9;&#9;name='$var$'&#10;&#9;/&gt;&#10;))" description="" toReformat="false" toShortenFQNames="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ir" value="import * as React from 'react';" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>

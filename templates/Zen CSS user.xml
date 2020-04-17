@@ -17,8 +17,8 @@
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="elr" value="@{root}__$VAR1$ {&#10;  &#10;}" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="elr" value="#{$root}__$var$ {&#10;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="true" />
     </context>

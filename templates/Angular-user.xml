@@ -1,5 +1,5 @@
 <templateSet group="Angular-user">
-  <template name="component" value="import {Component} from '@angular/core';&#10;&#10;@Component({&#10;&#9;selector: 'app-$var1$',&#10;&#9;templateUrl: './$var1$.component.html',&#10;&#9;styleUrls: ['./$var1$.component.scss']&#10;})&#10;export class $var2$ {&#10;&#9;&#10;}" description="Component file" toReformat="false" toShortenFQNames="true">
+  <template name="component" value="import {Component} from '@angular/core';&#10;&#10;@Component({&#10;&#9;selector: 'app-$var1$',&#10;&#9;templateUrl: './$var1$.component.html',&#10;&#9;styleUrls: ['./$var1$.component.scss']&#10;})&#10;export class $var2$ {&#10;&#9;&#10;}" description="Component file" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="var2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
