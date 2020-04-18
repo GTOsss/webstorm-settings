@@ -4,16 +4,16 @@
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="mdm" value="@media (min-width: 576px) {&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="mdm" value="@media (min-width: 576px) {&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="mdt" value="@media (min-width: 768px) {&#10;}" toReformat="false" toShortenFQNames="true" />
-  <template name="mdd" value="@media (min-width: 1024px) {&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="mdt" value="@media (min-width: 768px) {&#10;}" description="" toReformat="false" toShortenFQNames="true" />
+  <template name="mdd" value="@media (min-width: 1024px) {&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="mde" value="@media (min-width: 1860px) {&#10;}" toReformat="false" toShortenFQNames="true" />
+  <template name="mde" value="@media (min-width: 1860px) {&#10;}" description="" toReformat="false" toShortenFQNames="true" />
 </templateSet>
