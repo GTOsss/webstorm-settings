@@ -13,6 +13,9 @@
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
   <action id="GotoFile" />
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
   <action id="NewDir">
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
