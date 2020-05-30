@@ -11,10 +11,11 @@
       <option name="ECMAScript6" value="true" />
     </context>
   </template>
-  <template name="rc" value="class $NAME$ extends Component {&#10;  render() {&#10;    return (&#10;&#10;    );&#10;  }&#10;}&#10;&#10;$NAME$.propTypes = {&#10;  &#10;};&#10;&#10;$NAME$.defaultProps = {&#10;  &#10;};&#10;&#10;export default $NAME$;" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="rc" value="import * as React from 'react';&#10;&#10;interface Props {&#10;}&#10;&#10;const $NAME$: React.FC&lt;Props&gt; = React.memo(({}) =&gt; {&#10;&#10;  return ();&#10;});&#10;&#10;export default $NAME$;&#10;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
   <template name="fm" value="&lt;FormattedMessage id=&quot;$ID$&quot; /&gt;" description="" toReformat="false" toShortenFQNames="true">
