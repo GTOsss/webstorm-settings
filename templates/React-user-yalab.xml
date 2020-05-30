@@ -11,8 +11,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="is" value="import '$FROM$';" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="FROM" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="is" value="import styles from './styles.scss';" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
