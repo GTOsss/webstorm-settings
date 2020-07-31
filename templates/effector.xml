@@ -1,5 +1,5 @@
 <templateSet group="effector">
-  <template name="fx" value="const $name$Fx = createEffect({&#10;  handler: async () =&gt; {},&#10;});" toReformat="false" toShortenFQNames="true">
+  <template name="fx" value="const $name$Fx = createEffect({&#10;  handler: async () =&gt; {},&#10;});" description="" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
