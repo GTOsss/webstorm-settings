@@ -24,7 +24,7 @@
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="media" value="@media (min-width: 576px) {}&#10;&#10;@media (min-width: 768px) {}&#10;&#10;@media (min-width: 1024px) {}&#10;&#10;@media (min-width: 1366px) {}&#10;&#10;@media (min-width: 1740px) {}" toReformat="false" toShortenFQNames="true">
+  <template name="media" value="@media (min-width: 576px) {}&#10;&#10;@media (min-width: 768px) {}&#10;&#10;@media (min-width: 1024px) {}&#10;&#10;@media (min-width: 1366px) {}&#10;&#10;@media (min-width: 1740px) {}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="true" />
     </context>
