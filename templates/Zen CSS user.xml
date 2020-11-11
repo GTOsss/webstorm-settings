@@ -1,5 +1,5 @@
 <templateSet group="Zen CSS user">
-  <template name="media" value="@media screen and (max-width: $width$px) {&#10;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="media" value="@media screen and (max-width: $width$px) {&#10;&#10;}" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="width" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="true" />
