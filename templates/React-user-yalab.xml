@@ -11,12 +11,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="is" value="import styles from './styles.scss';" description="" toReformat="false" toShortenFQNames="true">
+  <template name="is" value="import styles from './styles.scss';" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="aa" value="$name$: () =&gt; async (dispatch) =&gt; {&#10;  try {&#10;    dispatch(toggleLoading(constLoading.$loadingConst$, true));&#10;  } catch (e) {&#10;&#9;&#9;if (e.response &amp;&amp; e.response.data &amp;&amp; e.response.data.error) {&#10;&#9;&#9;&#9;dispatch($actionError$(e.response.data.error));&#10;&#9;&#9;} else {&#10;&#9;&#9;&#9;throw e;&#10;&#9;&#9;}&#10;  } finally {&#10;    dispatch(toggleLoading(constLoading.$loadingConst$, false));&#10;  }&#10;}," description="Async action (yalab style)" toReformat="false" toShortenFQNames="true">
+  <template name="aa" value="$name$: () =&gt; async (dispatch) =&gt; {&#10;  try {&#10;    dispatch(toggleLoading(constLoading.$loadingConst$, true));&#10;  } catch (e) {&#10;&#9;&#9;if (e.response &amp;&amp; e.response.data &amp;&amp; e.response.data.error) {&#10;&#9;&#9;&#9;dispatch($actionError$(e.response.data.error));&#10;&#9;&#9;} else {&#10;&#9;&#9;&#9;throw e;&#10;&#9;&#9;}&#10;  } finally {&#10;    dispatch(toggleLoading(constLoading.$loadingConst$, false));&#10;  }&#10;}," description="Async action (yalab style)" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="loadingConst" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="actionError" expression="" defaultValue="" alwaysStopAt="true" />
@@ -24,14 +24,14 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="rm" value="[types.$VAR2$]: (state, {payload: {$VAR1$}}) =&gt; {&#10;&#9;return ({...state, $VAR1$});&#10;}," description="" toReformat="false" toShortenFQNames="true">
+  <template name="rm" value="[types.$VAR2$]: (state, {payload: {$VAR1$}}) =&gt; {&#10;&#9;return ({...state, $VAR1$});&#10;}," description="" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="a" value="const $VAR1$Action = ($VAR2$) =&gt; ({&#10;  type: types.$VAR3$,&#10;  payload: {$VAR2$},&#10;});&#10;" description="action" toReformat="false" toShortenFQNames="true">
+  <template name="a" value="const $VAR1$Action = ($VAR2$) =&gt; ({&#10;  type: types.$VAR3$,&#10;  payload: {$VAR2$},&#10;});&#10;" description="action" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR3" expression="" defaultValue="" alwaysStopAt="true" />
@@ -39,50 +39,55 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ae" value="const $VAR1$ErrorAction = (error) =&gt; ({&#10;  type: types.$VAR3$,&#10;  payload: {error},&#10;});&#10;" description="action error" toReformat="false" toShortenFQNames="true">
+  <template name="ae" value="const $VAR1$ErrorAction = (error) =&gt; ({&#10;  type: types.$VAR3$,&#10;  payload: {error},&#10;});&#10;" description="action error" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR3" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="actions" value="import {toggleLoading} from '@store/loading/actions';&#10;&#10;const key = '$VAR0$/';&#10;&#10;export const types = {&#10;  &#10;};&#10;&#10;export const constLoading = {&#10;  &#10;};&#10;&#10;export default {&#10;  &#10;};&#10;" description="Actions template file" toReformat="false" toShortenFQNames="true">
+  <template name="actions" value="import {toggleLoading} from '@store/loading/actions';&#10;&#10;const key = '$VAR0$/';&#10;&#10;export const types = {&#10;  &#10;};&#10;&#10;export const constLoading = {&#10;  &#10;};&#10;&#10;export default {&#10;  &#10;};&#10;" description="Actions template file" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="reducer" value="import reducer from '@utils/reducer';&#10;import {types} from './actions';&#10;&#10;const initState = {};&#10;&#10;export default reducer(initState, {&#10;    &#10;});&#10;" description="Reducer template file" toReformat="false" toShortenFQNames="true">
+  <template name="reducer" value="import reducer from '@utils/reducer';&#10;import {types} from './actions';&#10;&#10;const initState = {};&#10;&#10;export default reducer(initState, {&#10;    &#10;});&#10;" description="Reducer template file" toReformat="false" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="aae" value="const $VAR0$Action = () =&gt; ({&#10;  type: types.$VAR1$,&#10;  payload: {},&#10;});&#10;&#10;const $VAR0$ErrorAction = (error) =&gt; ({&#10;  type: types.$VAR1$_ERROR,&#10;  payload: {error},&#10;});" description="action and action error" toReformat="false" toShortenFQNames="true">
-    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="rme" value="[types.$VAR0$]: (state, {payload: {}}) =&gt; {&#10;&#9;return ({...state, $VAR1$: null});&#10;},&#10;&#10;[types.$VAR0$_ERROR]: (state, {payload: {error}}) =&gt; {&#10;&#9;return ({...state, $VAR1$: error});&#10;}," description="redux method and redux method error" toReformat="false" toShortenFQNames="true">
+  <template name="aae" value="const $VAR0$Action = () =&gt; ({&#10;  type: types.$VAR1$,&#10;  payload: {},&#10;});&#10;&#10;const $VAR0$ErrorAction = (error) =&gt; ({&#10;  type: types.$VAR1$_ERROR,&#10;  payload: {error},&#10;});" description="action and action error" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="importredux" value="import { connect } from 'react-redux';&#10;import * as actions from '@store/actions';&#10;" description="Import redux yalab code style" toReformat="false" toShortenFQNames="true">
+  <template name="rme" value="[types.$VAR0$]: (state, {payload: {}}) =&gt; {&#10;&#9;return ({...state, $VAR1$: null});&#10;},&#10;&#10;[types.$VAR0$_ERROR]: (state, {payload: {error}}) =&gt; {&#10;&#9;return ({...state, $VAR1$: error});&#10;}," description="redux method and redux method error" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="s" value=".add('$var$', () =&gt; (&#10;&#9;&lt;Icon&#10;&#9;&#9;name='$var$'&#10;&#9;/&gt;&#10;))" description="" toReformat="false" toShortenFQNames="true">
+  <template name="importredux" value="import { connect } from 'react-redux';&#10;import * as actions from '@store/actions';&#10;" description="Import redux yalab code style" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="s" value=".add('$var$', () =&gt; (&#10;&#9;&lt;Icon&#10;&#9;&#9;name='$var$'&#10;&#9;/&gt;&#10;))" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ir" value="import * as React from 'react';" description="" toReformat="false" toShortenFQNames="true">
+  <template name="ir" value="import * as React from 'react';" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="icx" value="import cx from 'clsx';" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
