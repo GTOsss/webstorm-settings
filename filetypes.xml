@@ -9,6 +9,7 @@
       <mapping pattern="_components" type="PLAIN_TEXT" />
       <mapping ext="my" type="PLAIN_TEXT" />
       <mapping ext="rc" type="PLAIN_TEXT" />
+      <mapping ext="slug]" type="PLAIN_TEXT" />
       <mapping ext="ar" type="PLAIN_TEXT" />
       <mapping ext="suka" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
