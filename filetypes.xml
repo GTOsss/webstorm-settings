@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping ext="" type="AUTO_DETECTED" />
       <mapping pattern=".env.development" type="PLAIN_TEXT" />
       <mapping pattern="http-files" type="PLAIN_TEXT" />
       <mapping pattern="use-window-size" type="PLAIN_TEXT" />
