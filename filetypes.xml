@@ -2,12 +2,13 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping ext="" type="AUTO_DETECTED" />
-      <mapping pattern=".env.development" type="PLAIN_TEXT" />
-      <mapping pattern="http-files" type="PLAIN_TEXT" />
-      <mapping pattern="use-window-size" type="PLAIN_TEXT" />
       <mapping pattern=".env.production" type="PLAIN_TEXT" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
       <mapping pattern="_components" type="PLAIN_TEXT" />
+      <mapping pattern="http-files" type="PLAIN_TEXT" />
+      <mapping pattern=".env.development" type="PLAIN_TEXT" />
+      <mapping pattern="use-window-size" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping ext="my" type="PLAIN_TEXT" />
       <mapping ext="rc" type="PLAIN_TEXT" />
       <mapping ext="slug]" type="PLAIN_TEXT" />
