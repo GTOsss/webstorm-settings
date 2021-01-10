@@ -17,6 +17,12 @@
         <option value="TypeScript.ts.type.hints" />
       </set>
     </option>
+    <option name="disabledLanguages">
+      <set>
+        <option value="JavaScript" />
+        <option value="TypeScript" />
+      </set>
+    </option>
     <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
   </component>
 </application>
