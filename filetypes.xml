@@ -11,6 +11,7 @@
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping ext="my" type="PLAIN_TEXT" />
       <mapping ext="rc" type="PLAIN_TEXT" />
+      <mapping ext="eslintignore" type="PLAIN_TEXT" />
       <mapping ext="slug]" type="PLAIN_TEXT" />
       <mapping ext="ar" type="PLAIN_TEXT" />
       <mapping ext="suka" type="PLAIN_TEXT" />
