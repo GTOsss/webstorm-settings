@@ -4,6 +4,7 @@
       <mapping ext="" type="AUTO_DETECTED" />
       <mapping pattern=".env.production" type="PLAIN_TEXT" />
       <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="_components" type="PLAIN_TEXT" />
       <mapping pattern=".env.development" type="PLAIN_TEXT" />
       <mapping pattern="http-files" type="PLAIN_TEXT" />
