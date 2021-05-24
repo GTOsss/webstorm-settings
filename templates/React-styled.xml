@@ -5,7 +5,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="sc" value="const $NAME$ = styled.$ELEMENT$`&#10;&#10;`;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="sc" value="export const $NAME$ = styled.$ELEMENT$`&#10;&#10;`;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ELEMENT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
